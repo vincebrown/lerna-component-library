@@ -6,7 +6,8 @@
     "web": "expo start --web",
     "start": "react-native start",
     "test": "jest",
-    "storybook": "start-storybook -p 7007"
+    "storybook": "start-storybook -p 7007",
+    "prestorybook": "rnstl"
   },
   "dependencies": {
     "expo": "~38.0.9",
@@ -35,10 +36,18 @@
     "babel-loader": "^8.1.0",
     "babel-preset-expo": "~8.2.0",
     "jest-expo": "~38.0.0",
+    "react-native-storybook-loader": "^2.0.2",
     "typescript": "~3.9.5"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": ["../packages/*"],
+      "pattern": "**/lib/*.stories.js",
+      "outputFile": "./storybook/storyLoader.js"
+    }
   },
   "private": true
 }

@@ -1,12 +1,7 @@
 import React from "react"
 
+import { storiesOf } from "@storybook/react-native"
+
 import Button from "./Button"
 
-export default {
-  component: Button,
-  title: "Button"
-}
-
-export const defaultButton = () => {
-  return <Button />
-}
+storiesOf("Button", module).add("with text", () => <Button />)
