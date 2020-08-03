@@ -1,0 +1,49 @@
+{
+  "name": "hh-ui-kit",
+  "version": "1.0.0",
+  "description": "A component library monorepo",
+  "main": "index.js",
+  "author": "Vince Brown <vince@vincebrown.me>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "compile": "lerna run compile",
+    "publish": "lerna run tsc && lerna publish",
+    "ios": "lerna --scope=@vincebrown/storybook run ios",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/runtime": "^7.11.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^7.0.1",
+    "@types/jest": "^26.0.8",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-native": "^0.63.2",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "babel-jest": "^26.2.2",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.2.2",
+    "lerna": "^3.22.1",
+    "metro-react-native-babel-preset": "^0.61.0",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-native-web": "^0.13.4",
+    "react-native": "^0.63.2"
+  }
+}
