@@ -12,11 +12,10 @@ module.exports = {
     assetPlugins: ["expo-asset/tools/hashAssetFiles"]
   },
   resolver: {
-    // Trying to resolve packages.
+    // Trying to resolve packages this does not solve the problem of metro not handling symlinks from hoisted node modules
+    // One option is just install every dependency needed in the storybook application so it does not need to resolve the symlinks
     extraNodeModules: new Proxy(extraNodeModules, {
       get: (target, name) => {
-        console.log("target", target)
-        console.log("HERE", path.join(process.cwd(), `node_modules/${name}`))
         return name in target
           ? target[name]
           : path.join(process.cwd(), `node_modules/${name}`)

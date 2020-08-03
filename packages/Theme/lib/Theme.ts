@@ -1,5 +1,5 @@
-// import DeviceInfo from "react-native-device-info"
-const isTablet = false
+import DeviceInfo from "react-native-device-info"
+const isTablet = DeviceInfo.isTablet()
 
 const padding = {
   p0: 0,

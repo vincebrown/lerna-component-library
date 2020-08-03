@@ -14,6 +14,7 @@ const Button: FC = () => {
       padding: Theme.padding.p4
     }
   })
+
   return (
     <TouchableOpacity style={styles.container} testID="button">
       <Text>CONTINUE</Text>
