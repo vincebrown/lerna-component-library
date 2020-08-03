@@ -3,3 +3,4 @@ node_modules
 .jest-coverage
 dist
 .DS_Store
+Pods
