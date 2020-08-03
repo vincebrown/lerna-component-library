@@ -14,7 +14,6 @@
   "scripts": {
     "compile": "lerna run compile",
     "publish": "lerna run tsc && lerna publish",
-    "ios": "lerna --scope=@vincebrown/storybook run ios",
     "test": "jest --coverage"
   },
   "devDependencies": {
