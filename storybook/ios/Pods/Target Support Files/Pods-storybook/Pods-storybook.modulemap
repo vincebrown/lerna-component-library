@@ -1,6 +1,0 @@
-module Pods_storybook {
-  umbrella header "Pods-storybook-umbrella.h"
-
-  export *
-  module * { export * }
-}
