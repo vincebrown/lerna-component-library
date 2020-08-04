@@ -17,7 +17,7 @@ const Button: FC = () => {
 
   return (
     <TouchableOpacity style={styles.container} testID="button">
-      <Text>CONTINUE</Text>
+      <Text>CONTINUE!</Text>
     </TouchableOpacity>
   )
 }
