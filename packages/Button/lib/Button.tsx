@@ -10,7 +10,7 @@ const Button: FC = () => {
       flexDirection: "row",
       justifyContent: "center",
       borderRadius: Theme.sizing.borderRadius,
-      width: "65%",
+      width: "50%",
       padding: Theme.padding.p4
     }
   })
