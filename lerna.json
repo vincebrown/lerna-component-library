@@ -6,9 +6,12 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
+      "yes": true,
       "ignoreChanges": ["**/__tests__/**", "**/stories/**", "**/*.md", "**/tsconfig.json"]
     },
     "version": {
+      "conventionalCommits": true,
+      "yes": true,
       "message": "chore(release): release",
       "ignoreChanges": ["**/__tests__/**", "**/stories/**", "**/*.md", "**/tsconfig.json"]
     } 
