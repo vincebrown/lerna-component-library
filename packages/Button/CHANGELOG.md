@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/vincebrown/lerna-component-library/compare/@vincebrown-org/button@2.0.1...@vincebrown-org/button@2.0.2) (2020-08-04)
+
+
+### Bug Fixes
+
+* **button:** update width ([df53720](https://github.com/vincebrown/lerna-component-library/commit/df537203b9acd1fee473bff97ab1fc442e66c885))
+
+
+
+
+
 ## [2.0.1](https://github.com/vincebrown/lerna-component-library/compare/@vincebrown-org/button@2.0.0...@vincebrown-org/button@2.0.1) (2020-08-04)
 
 
