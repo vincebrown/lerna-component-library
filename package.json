@@ -15,6 +15,7 @@
     "clean": "lerna run clean",
     "compile": "lerna run compile",
     "build": "lerna run build",
+    "diff": "lerna diff",
     "new-version": "lerna version --conventional-commits --yes",
     "publish": "lerna run tsc && lerna publish",
     "test": "jest --coverage"
