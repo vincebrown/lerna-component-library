@@ -35,9 +35,10 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@vincebrown-org/theme": "^1.0.1",
-    "react": "^16.13.1",
-    "react-native": "^0.63.2",
-    "react-native-web": "^0.13.4"
+    "@vincebrown-org/theme": "^1.0.1"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-native": ">=0.63"
   }
 }
