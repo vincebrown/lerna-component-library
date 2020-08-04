@@ -5,6 +5,8 @@
     "outDir": "./dist",
     "rootDir": "./lib"
   },
+  // Must define packages from the monorepo being used in references via a path 
+  // that resolves to the root where tsconfig.json is so ts knows how to deal with imports
   "references": [
     { "path":  "../Theme" }
   ],
