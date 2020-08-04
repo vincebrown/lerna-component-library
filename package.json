@@ -16,10 +16,10 @@
     "clean": "lerna run clean",
     "compile": "lerna run compile",
     "build": "lerna run build",
-    "diff": "lerna diff",
-    "changed": "lerna changed",
-    "new-version": "cross-env HUSKY_BYPASS=true lerna version",
-    "publish": "lerna run build && cross-env HUSKY_BYPASS=true lerna publish",
+    "lerna-diff": "lerna diff",
+    "lerna-changed": "lerna changed",
+    "lerna-version": "cross-env HUSKY_BYPASS=true lerna version",
+    "lerna-publish": "lerna run build && cross-env HUSKY_BYPASS=true lerna publish",
     "test": "jest --coverage"
   },
   "devDependencies": {
