@@ -27,6 +27,7 @@
     "@babel/runtime": "^7.11.0",
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/config-lerna-scopes": "^9.1.1",
     "@react-native-community/eslint-config": "^2.0.0",
     "@testing-library/react-native": "^7.0.1",
     "@types/jest": "^26.0.8",
@@ -57,7 +58,8 @@
   },
   "commitlint": {
     "extends": [
-      "@commitlint/config-conventional"
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
     ]
   },
   "husky": {
