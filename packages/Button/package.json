@@ -1,6 +1,6 @@
 {
   "name": "@vincebrown-org/button",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A Button component",
   "author": "Vince Brown <vince@vincebrown.me>",
   "homepage": "",
@@ -33,7 +33,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@vincebrown-org/theme": "^0.0.0",
+    "@vincebrown-org/theme": "^1.0.0",
     "react": "^16.13.1",
     "react-native": "^0.63.2",
     "react-native-web": "^0.13.4"
