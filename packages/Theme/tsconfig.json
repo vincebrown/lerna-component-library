@@ -1,12 +1,15 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+    "composite": true,
     "outDir": "./dist",
     "rootDir": "./lib"
   },
+  "include": ["lib/*"],
   "exclude": [
     "node_modules",
     "dist",
-    "__tests__/*"
+    "__tests__/*",
+    "stories/*",
   ]
 }

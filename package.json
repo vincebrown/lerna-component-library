@@ -12,7 +12,9 @@
     ]
   },
   "scripts": {
+    "clean": "lerna run clean",
     "compile": "lerna run compile",
+    "build": "lerna run build",
     "publish": "lerna run tsc && lerna publish",
     "test": "jest --coverage"
   },

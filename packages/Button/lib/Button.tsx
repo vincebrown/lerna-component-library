@@ -1,6 +1,6 @@
 import React, { FC } from "react"
 import { StyleSheet, Text, TouchableOpacity } from "react-native"
-import Theme from "@vincebrown/theme"
+import Theme from "@vincebrown-org/theme"
 
 const Button: FC = () => {
   const styles = StyleSheet.create({
