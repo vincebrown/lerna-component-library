@@ -12,10 +12,12 @@
     ]
   },
   "scripts": {
+    "commit": "git cz",
     "clean": "lerna run clean",
     "compile": "lerna run compile",
     "build": "lerna run build",
     "diff": "lerna diff",
+    "changed": "lerna changed",
     "new-version": "lerna version --conventional-commits --yes",
     "publish": "lerna run build && lerna publish --conventional-commits --yes",
     "test": "jest --coverage"

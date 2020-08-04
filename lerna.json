@@ -5,10 +5,12 @@
   "useWorkspaces": true,
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "ignoreChanges": ["**/__tests__/**", "**/stories/**", "**/*.md", "**/tsconfig.json"]
     },
     "version": {
-      "message": "chore(release): release"
+      "message": "chore(release): release",
+      "ignoreChanges": ["**/__tests__/**", "**/stories/**", "**/*.md", "**/tsconfig.json"]
     } 
   }
 }
