@@ -17,7 +17,7 @@
     "build": "lerna run build",
     "diff": "lerna diff",
     "new-version": "lerna version --conventional-commits --yes",
-    "publish": "lerna run tsc && lerna publish",
+    "publish": "lerna run build && lerna publish --conventional-commits --yes",
     "test": "jest --coverage"
   },
   "devDependencies": {
