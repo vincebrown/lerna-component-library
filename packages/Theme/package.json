@@ -1,11 +1,11 @@
 {
   "name": "@vincebrown-org/theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Main component library theme",
   "author": "Vince Brown <vince@vincebrown.me>",
   "license": "MIT",
   "publishConfig": {
-    "access":"public"
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
     "compile": "tsc --build",
