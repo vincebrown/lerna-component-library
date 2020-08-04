@@ -5,6 +5,14 @@
   "author": "Vince Brown <vince@vincebrown.me>",
   "homepage": "",
   "license": "MIT",
+  "publishConfig": {
+    "access":"public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vincebrown/lerna-component-library.git",
+    "directory": "packages/Button"
+  },
   "main": "dist/Button.js",
   "types": "dist/Button.d.ts",
   "directories": {
@@ -13,14 +21,11 @@
     "stories": "stories"
   },
   "files": ["dist"],
-  "publishConfig": {
-    "registry": "https://registry.yarnpkg.com"
-  },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "yarn clean && yarn compile",
+    "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo",
     "compile": "tsc --build",
-    "clean": "rm -rf ./dist && rm -rf tsconfig.tsbuildinfo"
+    "build": "yarn clean && yarn compile",
+    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
     "@types/react": "^16.9.44",
