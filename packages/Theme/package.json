@@ -1,6 +1,6 @@
 {
   "name": "@vincebrown/theme",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Main component library theme",
   "author": "Vince Brown <vince@vincebrown.me>",
   "license": "MIT",
@@ -29,6 +29,5 @@
   },
   "devDependencies": {
     "typescript": "^3.9.7"
-  },
-  "dependencies": {}
+  }
 }

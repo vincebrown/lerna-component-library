@@ -1,12 +1,12 @@
 {
   "name": "@vincebrown/button",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "A Button component",
   "author": "Vince Brown <vince@vincebrown.me>",
   "homepage": "",
   "license": "MIT",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
