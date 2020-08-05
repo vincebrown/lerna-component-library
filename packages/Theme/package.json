@@ -5,7 +5,7 @@
   "author": "Vince Brown <vince@vincebrown.me>",
   "license": "MIT",
   "publishConfig": {
-    "access": "public"
+    "registry":"https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
