@@ -5,7 +5,7 @@
   "author": "Vince Brown <vince@vincebrown.me>",
   "license": "MIT",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -30,7 +30,5 @@
   "devDependencies": {
     "typescript": "^3.9.7"
   },
-  "dependencies": {
-    "react-native-device-info": ">=5"
-  }
+  "dependencies": {}
 }
