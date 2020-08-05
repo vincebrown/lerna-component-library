@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/vincebrown/lerna-component-library/compare/@vincebrown/button@3.0.0...@vincebrown/button@3.0.1) (2020-08-05)
+
+
+### Bug Fixes
+
+* **button:** fix import issue ([b8bc60d](https://github.com/vincebrown/lerna-component-library/commit/b8bc60d6a0cbccbef4e39660c7f6724ddef8df3a))
+* **button:** update dependent theme package ([490841f](https://github.com/vincebrown/lerna-component-library/commit/490841fe4dc7e47913e50f6b391a6261ee31da64))
+
+
+
+
+
 # 3.0.0 (2020-08-05)
 
 
