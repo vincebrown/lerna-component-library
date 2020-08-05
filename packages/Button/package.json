@@ -35,7 +35,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@vincebrown-org/theme": "^2.0.0"
+    "@vincebrown/theme": "^3.0.0"
   },
   "peerDependencies": {
     "react": ">=16",
